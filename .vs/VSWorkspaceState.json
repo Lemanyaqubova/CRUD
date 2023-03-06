@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\FrontToBack",
+    "\\FrontToBack\\FrontToBack",
+    "\\FrontToBack\\FrontToBack\\Areas",
+    "\\FrontToBack\\FrontToBack\\Areas\\AdminArea",
+    "\\FrontToBack\\FrontToBack\\Areas\\AdminArea\\Views",
+    "\\FrontToBack\\FrontToBack\\Areas\\AdminArea\\Views\\Category",
+    "\\FrontToBack\\FrontToBack\\Controllers"
+  ],
+  "SelectedNode": "\\FrontToBack\\FrontToBack\\Areas\\AdminArea\\Views\\Category\\Create.cshtml",
+  "PreviewInSolutionExplorer": false
+}
