@@ -23,7 +23,7 @@ namespace FrontToBack.Areas.AdminArea.Controllers
             return View(_appDbContext.Sliders.ToList());
         }
 
-        public IActionResult Cre    ate()
+        public IActionResult Create()
         {
             return View();
         }
@@ -53,7 +53,7 @@ namespace FrontToBack.Areas.AdminArea.Controllers
             }
 
             Slider newSlider = new();
-            newSlider.ImageUrl = fileName; /*sliderCreateVM.Photo.SaveImage(_env,"img",sliderCreateVM.Photo.FileName);*/
+            newSlider.ImageUrl = sliderCreateVM.Photo.SaveImage(_env,"img", sliderCreateVM.Photo.FileName); /*sliderCreateVM.Photo.SaveImage(_env,"img",sliderCreateVM.Photo.FileName);*/
             _appDbContext.Sliders.Add(newSlider);
             _appDbContext.SaveChanges();
                 return RedirectToAction("index");

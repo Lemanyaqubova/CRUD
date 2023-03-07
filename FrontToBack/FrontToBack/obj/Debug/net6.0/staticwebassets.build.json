@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "53vjpAWJDEl8LRNXj6tUl2Ermx16fXLWdP8O7jHuJI8=",
+  "Hash": "DeE2va+Xx4IYmoIyYANJYdgFFR8Hl+oKaRnRkU/1Qsc=",
   "Source": "FrontToBack",
   "BasePath": "_content/FrontToBack",
   "Mode": "Default",
@@ -2191,6 +2191,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Leman\\OneDrive\\Desktop\\AdminPanel\\FrontToBack\\FrontToBack\\wwwroot\\img\\89406324-7943-4926-866a-90ee831a30fbapple-icon.png",
+      "SourceId": "FrontToBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Leman\\OneDrive\\Desktop\\AdminPanel\\FrontToBack\\FrontToBack\\wwwroot\\",
+      "BasePath": "_content/FrontToBack",
+      "RelativePath": "img/89406324-7943-4926-866a-90ee831a30fbapple-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\89406324-7943-4926-866a-90ee831a30fbapple-icon.png"
     },
     {
       "Identity": "C:\\Users\\Leman\\OneDrive\\Desktop\\AdminPanel\\FrontToBack\\FrontToBack\\wwwroot\\img\\blog-feature-img-1.jpg",

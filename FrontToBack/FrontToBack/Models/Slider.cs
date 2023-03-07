@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FrontToBack.Models
 {
@@ -6,6 +7,10 @@ namespace FrontToBack.Models
     {
         public int Id { get; set; }
         public string ImageUrl{ get; set; }
+        [NotMapped]
+        [Required]
+        public IFormFile Photo  { get; set; }
+
        
     }
 }

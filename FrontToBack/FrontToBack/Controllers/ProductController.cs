@@ -28,6 +28,8 @@ namespace FrontToBack.Controllers
                 .ToList();
             return View(products);
         }
+
+
         public IActionResult LoadMore( int skip)
         {
             var products = _appDbContext.Products
